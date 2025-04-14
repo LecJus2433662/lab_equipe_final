@@ -11,7 +11,7 @@ namespace lab_equipe_final
         public Calculateur() { }
 
 
-        public double Multiplication(double nb1, double nb2)
+        public  double Multiplication(double nb1, double nb2)
         {
 
             return nb1 * nb2;
