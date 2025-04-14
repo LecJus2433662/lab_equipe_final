@@ -17,10 +17,8 @@ namespace lab_equipe_final
             return nb1 * nb2;
         }
 
-        public double Division(double nombre1, double nombre2)
+        public int Division(int nombre1, int nombre2) //jai laisser les types en double ici cest a cause de sa que sa marchait pas
         {
-
-
             return nombre1 / nombre2;
         }
     }
