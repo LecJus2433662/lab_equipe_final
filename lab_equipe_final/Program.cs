@@ -29,9 +29,8 @@ namespace lab_equipe_final
             {
                 Console.WriteLine("ce n'est pas un nombre, donc pas de bras, pas de chocolat");
             }
-
-
-                
+            try 
+            {
                 Calculateur calculateur = new Calculateur();
                 int nombre1 = 0;
                 int nombre2 = 0;
@@ -42,8 +41,8 @@ namespace lab_equipe_final
                 calculateur.Division(nombre1, nombre2);
                 Console.WriteLine("Le resultat de la division est :");
                 Console.WriteLine(calculateur.Division(nombre1, nombre2));
-
             }
+
             catch (DivideByZeroException)
             {
                 Console.WriteLine();
