@@ -21,7 +21,7 @@ namespace lab_equipe_final
         {
 
 
-            return nombre1 / nombre2; 
+            return nombre1 / nombre2;
         }
     }
 }
