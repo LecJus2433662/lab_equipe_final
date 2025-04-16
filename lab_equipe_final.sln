@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab_equipe_final", "lab_equipe_final\lab_equipe_final.csproj", "{A0AA8897-6156-4E80-B276-6BE6BF4F11F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab_equipe_final", "lab_equipe_final\lab_equipe_final.csproj", "{A0AA8897-6156-4E80-B276-6BE6BF4F11F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesFilms", "LesFilms\LesFilms.csproj", "{EAA31CCA-8F8F-4ED7-A7AB-5B10BDB6DFFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A0AA8897-6156-4E80-B276-6BE6BF4F11F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0AA8897-6156-4E80-B276-6BE6BF4F11F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0AA8897-6156-4E80-B276-6BE6BF4F11F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA31CCA-8F8F-4ED7-A7AB-5B10BDB6DFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA31CCA-8F8F-4ED7-A7AB-5B10BDB6DFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA31CCA-8F8F-4ED7-A7AB-5B10BDB6DFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA31CCA-8F8F-4ED7-A7AB-5B10BDB6DFFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
