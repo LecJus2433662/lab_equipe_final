@@ -1,6 +1,7 @@
 ﻿using LesFilms;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,6 +28,10 @@ namespace LesFilms
             Console.WriteLine("Quel est le nom de l'acteur ?");
             string nomActeur = Console.ReadLine();
             catalogue.RechercherParActeur(nomActeur);
+
+            Console.WriteLine("Quel est le titre du film ?");
+            string nomTitre = Console.ReadLine();
+            catalogue.RechercherParTitre(nomTitre);
         }
         
     }
