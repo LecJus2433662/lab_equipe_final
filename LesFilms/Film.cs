@@ -29,15 +29,7 @@ namespace LesFilms
         }
     }
 
-    public partial class Film
-    {
-        string genre;
-        List<string> genres;
-
-        public Film(string genre)
-        {
-            this.genres = new List<string>();
-        }
+   
 
     }
-}
+
