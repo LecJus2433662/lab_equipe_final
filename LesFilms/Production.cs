@@ -29,7 +29,7 @@ namespace LesFilms
             string nomActeur = Console.ReadLine();
             catalogue.RechercherParActeur(nomActeur);
 
-            Console.WriteLine("Quel est le titre du film ?");
+            Console.WriteLine("Quel est le titre du film ?"); 
             string nomTitre = Console.ReadLine();
             catalogue.RechercherParTitre(nomTitre);
         }

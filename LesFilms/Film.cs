@@ -25,13 +25,13 @@ namespace LesFilms
 
         public override string ToString()
         {
-            return $"Titre : {titre}, Directeur : {directeur} , anneeDeSortie : {anneeSortie}";
+            return $"Titre : {titre}, Directeur : {directeur} , Année De Sortie : {anneeSortie}";
         }
     }
 
     public partial class Film
     {
-        string genre; //a reverifier pour le nom
+        string genre;
         List<string> genres;
 
         public Film(string genre)
