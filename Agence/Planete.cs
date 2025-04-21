@@ -33,6 +33,8 @@ namespace Agence
                 }
                 else
                 {
+                    
+                    //t guez allo
                     exploree = true;
                     string rapport = "";
                     rapport += $"{nom} , {atmosphere}, {distanceTerre}, {taille}";
