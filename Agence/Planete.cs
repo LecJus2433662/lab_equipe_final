@@ -39,7 +39,7 @@ namespace Agence
                     Console.WriteLine(rapport);
                 }
             }
-            catch(InvalidOperationException ex) 
+            catch (InvalidOperationException ex)
             {
                 Console.WriteLine($"Erreur lors de l'exploration de la planète : {ex.Message} ");
             }
