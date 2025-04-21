@@ -6,11 +6,6 @@ namespace Agence
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-=======
-         
-
->>>>>>> justinbranches
 
         }
     }
