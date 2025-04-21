@@ -12,8 +12,8 @@ namespace Agence
         public int capacite { get; set; }
         public double vitesseActuelle { get; set; }
         public double vitesseMax { get; set; }
-        private bool enOrbite;
-        private List<Mission> missionsEnCours = new List<Mission>();
+        public bool enOrbite;
+        public List<Mission> missionsEnCours = new List<Mission>();
 
 
         public Vaisseau(string nom, int capacite, int vitesseActuelle, int vitesseMax)
@@ -23,31 +23,20 @@ namespace Agence
             this.vitesseActuelle = vitesseActuelle;
             this.vitesseMax = vitesseMax;
         }
-        public void Decollage(int x, int y, DateTime date)
+        public void Decollage(string destination, DateTime dateDepart)
         {
-            try
+            if (enOrbite)
             {
-                if (enOrbite)
-                {
-                    throw new InvalidOperationException("Le vaisseau est déjà en orbite");
-                }
-                enOrbite = true;
-                Mission nouvelleMission = new Mission
-                {
-                    nomMission = $"Mission vers ({x},{y})",
-                    destination = $"Coordonnées : {x},{y}",
-                    dateDepart = date,
-                    dateArriver = date.AddDays(1),
-                    status = StatutMission.Planifie
-                };
+                throw new Exception("Le vaisseau est déjà en orbite");
+            }
 
-                missionsEnCours.Add(nouvelleMission);
-                Console.WriteLine($"Décollage planifier : {nouvelleMission.nomMission}");
-            }
-            catch (InvalidOperationException ex)
-            {
-                Console.WriteLine($"erreur lors du décollage : {ex.Message}");
-            }
+            enOrbite = true;
+            Mission mission = new Mission($"Mission vers {destination}", destination, dateDepart, dateDepart.AddDays(180));
+            missionsEnCours.Add(mission);
+        }
+        public override string ToString()
+        {
+            return $"nom vaisseau: {nom}\n capacité de passager : {capacite}\n vitesse actuelle : {vitesseActuelle}\n vitesse max : {vitesseMax}\n en orbite : {enOrbite}";
         }
     }
 }
