@@ -24,7 +24,7 @@ namespace Agence
             this.vitesseMax = vitesseMax;
             this.enOrbite = enOrbite;
         }
-        public void Decollage(int x, int y,DateTime date)
+        public void Decollage(int x, int y, DateTime date)
         {
             try
             {
@@ -32,7 +32,6 @@ namespace Agence
                 {
                     throw new InvalidOperationException("Le vaisseau est déjà en orbite");
                 }
-                enOrbite = true;
                 enOrbite = true;
                 Console.WriteLine($"Décollage en orbite");
             }
