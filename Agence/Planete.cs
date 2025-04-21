@@ -37,7 +37,7 @@ namespace Agence
                     //t guez allo
                     exploree = true;
                     string rapport = "";
-                    rapport += $"{nom} , {atmosphere}, {distanceTerre}, {taille}";
+                    rapport += $" nom planète : {nom} , atmosphère : {atmosphere}, distance à la terre : {distanceTerre}, taille planète : {taille}";
                     Console.WriteLine(rapport);
                 }
             }
