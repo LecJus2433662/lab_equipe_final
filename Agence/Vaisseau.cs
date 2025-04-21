@@ -33,7 +33,17 @@ namespace Agence
                     throw new InvalidOperationException("Le vaisseau est déjà en orbite");
                 }
                 enOrbite = true;
-                Console.WriteLine($"Décollage en orbite");
+                Mission nouvelleMission = new Mission
+                {
+                    nomMission = $"Mission vers ({x},{y})",
+                    destination = $"Coordonnées : {x},{y}",
+                    dateDepart = date,
+                    dateArriver = date.AddDays(1),
+                    status = StatutMission.Planifie
+                };
+
+                missionsEnCours.Add(nouvelleMission);
+                Console.WriteLine($"Décollage planifier : {nouvelleMission.nomMission}");
             }
             catch (InvalidOperationException ex)
             {
