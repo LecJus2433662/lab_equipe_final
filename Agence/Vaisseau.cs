@@ -16,13 +16,12 @@ namespace Agence
         private List<Mission> missionsEnCours = new List<Mission>();
 
 
-        public Vaisseau(string nom, int capacite, int vitesseActuelle, int vitesseMax, bool enOrbite)
+        public Vaisseau(string nom, int capacite, int vitesseActuelle, int vitesseMax)
         {
             this.nom = nom;
             this.capacite = capacite;
             this.vitesseActuelle = vitesseActuelle;
             this.vitesseMax = vitesseMax;
-            this.enOrbite = enOrbite;
         }
         public void Decollage(int x, int y, DateTime date)
         {
