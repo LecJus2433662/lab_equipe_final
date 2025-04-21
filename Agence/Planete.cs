@@ -34,7 +34,7 @@ namespace Agence
                 else
                 {
                     
-                    //t guez allo
+                   
                     exploree = true;
                     string rapport = "";
                     rapport += $" nom planète : {nom} , atmosphère : {atmosphere}, distance à la terre : {distanceTerre}, taille planète : {taille}";
