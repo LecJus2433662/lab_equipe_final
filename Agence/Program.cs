@@ -6,8 +6,7 @@ namespace Agence
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-=======
+
             Vaisseau vaisseau = new Vaisseau("le vaisseau", 50, 500, 2500);
             Mission mission = new Mission("vers mars","mars",DateTime.Now,DateTime.Now.AddDays(45));
 
@@ -36,7 +35,6 @@ namespace Agence
             mission.CompleterMission();
             Console.WriteLine($"status de la mission : {mission.status}");
 
->>>>>>> 5c87c2466ace4cb48cc4e005ba9eec673cf0f2e6
 
         }
     }
