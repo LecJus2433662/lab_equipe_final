@@ -20,8 +20,14 @@ namespace Agence
         public DateTime dateArriver { get; set; }
         public StatutMission status { get; set; }
 
-        public Mission()
+
+        //test
+        public Mission(string nomMission, string destination, DateTime dateDepart, DateTime dateArriver)
         {
+            this.nomMission = nomMission;
+            this.destination = destination;
+            this.dateDepart = dateDepart;
+            this.dateArriver = dateArriver;
             status = StatutMission.Planifie;
         }
     }
