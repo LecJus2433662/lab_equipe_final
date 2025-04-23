@@ -1,5 +1,18 @@
 ﻿using System;
 
+
+/**********************************************/
+/*  Nom :   justin leclerc, Alexis Turcotte
+    Date : 2025-04-23
+    Description : mission spatiale 
+
+
+    Probleme rencontre :   problème avec github (conflit)
+    
+
+    Review par : Jad
+*/
+/**********************************************/
 namespace Agence
 {
     internal class Program
