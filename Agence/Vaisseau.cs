@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Agence
 {
-    //allo test
+   
     public partial class Vaisseau
     {
         public string nom { get; set; }

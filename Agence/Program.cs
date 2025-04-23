@@ -19,7 +19,6 @@ namespace Agence
     {
         static void Main(string[] args)
         {
-
             Vaisseau vaisseau = new Vaisseau("le vaisseau", 50, 500, 2500);
             Mission mission = new Mission("vers mars","mars",DateTime.Now,DateTime.Now.AddDays(45));
 
