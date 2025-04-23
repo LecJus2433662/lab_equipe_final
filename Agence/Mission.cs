@@ -14,21 +14,21 @@ namespace Agence
     }
     public partial class Mission
     {
-        public string nomMission {  get; set; }
-        public string destination {  get; set; }
-        public DateTime dateDepart {  get; set; }
-        public DateTime dateArriver { get; set; }
-        public StatutMission status { get; set; }
+        public string NomMission {  get; set; }
+        public string Destination {  get; set; }
+        public DateTime DateDepart {  get; set; }
+        public DateTime DateArriver { get; set; }
+        public StatutMission Status { get; set; }
 
 
         //test
         public Mission(string nomMission, string destination, DateTime dateDepart, DateTime dateArriver)
         {
-            this.nomMission = nomMission;
-            this.destination = destination;
-            this.dateDepart = dateDepart;
-            this.dateArriver = dateArriver;
-            status = StatutMission.Planifie;
+            this.NomMission = nomMission;
+            this.Destination = destination;
+            this.DateDepart = dateDepart;
+            this.DateArriver = dateArriver;
+            Status = StatutMission.Planifie;
         }
     }
 }

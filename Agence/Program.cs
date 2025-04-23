@@ -10,7 +10,7 @@
     Probleme rencontre :   problème avec github (conflit)
     
 
-    Review par : Jad
+    Review par : Olesksander
 */
 /**********************************************/
 namespace Agence
@@ -46,7 +46,7 @@ namespace Agence
 
             Console.WriteLine("\n complétion de la mission.... ");
             mission.CompleterMission();
-            Console.WriteLine($"status de la mission : {mission.status}");
+            Console.WriteLine($"status de la mission : {mission.Status}");
 
 
         }

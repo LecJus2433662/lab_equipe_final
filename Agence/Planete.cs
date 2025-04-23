@@ -8,26 +8,26 @@ namespace Agence
 {
     public class Planete
     {
-        string nom { get; set; }
-        int taille { get; set; }
-        int distanceTerre { get; set; }
-        bool atmosphere { get; set; }
-        bool exploree { get; set; }
+        string Nom { get; set; }
+        int Taille { get; set; }
+        int DistanceTerre { get; set; }
+        bool Atmosphere { get; set; }
+        bool Exploree { get; set; }
 
         public Planete(string nom, int taille, int distanceTerre, bool atmosphere, bool explorer)
         {
-            this.nom = nom;
-            this.taille = taille;
-            this.distanceTerre = distanceTerre;
-            this.atmosphere = atmosphere;
-            exploree = explorer;
+            this.Nom = nom;
+            this.Taille = taille;
+            this.DistanceTerre = distanceTerre;
+            this.Atmosphere = atmosphere;
+            Exploree = explorer;
         }
 
         public void Explorer()
         {
             try
             {
-                if (exploree)
+                if (Exploree)
                 {
                     throw new InvalidOperationException("Cette planète à déjà été explorer");
                 }
@@ -35,9 +35,9 @@ namespace Agence
                 {
                     
                    
-                    exploree = true;
+                    Exploree = true;
                     string rapport = "";
-                    rapport += $" nom planète : {nom} , atmosphère : {atmosphere}, distance à la terre : {distanceTerre}, taille planète : {taille}";
+                    rapport += $" nom planète : {Nom} , atmosphère : {Atmosphere}, distance à la terre : {DistanceTerre}, taille planète : {Taille}";
                     Console.WriteLine(rapport);
                 }
             }

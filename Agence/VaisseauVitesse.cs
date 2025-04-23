@@ -12,13 +12,13 @@ namespace Agence
         {
             try
             {
-                if (nouvelleVitesse > vitesseMax)
+                if (nouvelleVitesse > VitesseMax)
                 {
                     throw new InvalidOperationException("La vitesse demandée dépasse la vitesse maximale du vaisseau");
                 }
 
-                vitesseActuelle = nouvelleVitesse;
-                Console.WriteLine($"Vitesse changée : {vitesseActuelle} km/h.");
+                VitesseActuelle = nouvelleVitesse;
+                Console.WriteLine($"Vitesse changée : {VitesseActuelle} km/h.");
             }
             catch (InvalidOperationException ex)
             {
