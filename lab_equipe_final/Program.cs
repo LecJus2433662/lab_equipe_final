@@ -1,6 +1,17 @@
 ﻿using System;
 using System.Linq.Expressions;
+/**********************************************/
+/*  Nom :   justin leclerc, Alexis Turcotte
+    Date : 2025-04-23
+    Description : calculatrice
 
+
+    Probleme rencontre :   problème avec github (conflit) et comprendre les execptions
+    
+
+    Review par : Jad
+*/
+/**********************************************/
 namespace lab_equipe_final
 {
     internal class Program
