@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Agence
 {
-<<<<<<< HEAD
 
-=======
-   
->>>>>>> justin
     public partial class Vaisseau
     {
         public string Nom { get; set; }

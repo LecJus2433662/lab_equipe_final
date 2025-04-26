@@ -10,13 +10,13 @@ namespace Agence
     {
         public void CompleterMission()
         {
-<<<<<<< HEAD
+
             Status = StatutMission.Terminee;
             Console.WriteLine($"Mission " + NomMission + " terminée. Confirmation envoyée a la terre.");
-=======
+
             status = StatutMission.Terminee;
             Console.WriteLine($"Mission " + nomMission + " terminée. Confirmation envoyée a la terre.");
->>>>>>> justin
+
         }
     }
 }
