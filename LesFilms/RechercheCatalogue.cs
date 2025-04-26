@@ -16,7 +16,7 @@ namespace LesFilms
             {
                 if (film.acteurs.Contains(nomActeur))
                 {
-                    Console.WriteLine($"Nom acetur : {nomActeur} -> film : {film.ToString()} \n");
+                    Console.WriteLine($"Nom acteur : {nomActeur} -> film : {film.ToString()} \n");
                     rechercheActeur = true;
                 }
 
@@ -41,7 +41,7 @@ namespace LesFilms
             }
             if (!rechercheTitre)
             {
-                Console.WriteLine($"l'acteur {nomTitre} n'existe pas ou n'est pas encore sortie");
+                Console.WriteLine($"Le film {nomTitre} n'existe pas ou n'est pas encore sortie");
             }
         }
 
