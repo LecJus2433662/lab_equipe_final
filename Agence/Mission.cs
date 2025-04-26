@@ -21,7 +21,7 @@ namespace Agence
         public StatutMission Status { get; set; }
 
 
-        //test
+       
         public Mission(string nomMission, string destination, DateTime dateDepart, DateTime dateArriver)
         {
             this.NomMission = nomMission;

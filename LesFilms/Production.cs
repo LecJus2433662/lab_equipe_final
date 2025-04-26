@@ -14,7 +14,7 @@ namespace LesFilms
         {
             Catalogue catalogue = new Catalogue();
             Film film1 = new Film("Minecraft", "Jack", 2025);
-            Film film2 = new Film("StarsWars", "Ben", 1999);
+            Film film2 = new Film("StarWars", "Ben", 1999);
             Film film3 = new Film("Saw", "Fernand", 2024);
 
             film1.acteurs = new List<string> { "Benoit", "Jack Black", "Bernadette", "Gerald" };
